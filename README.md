@@ -1,9 +1,11 @@
 # fore-project
 
-A blueprint for developing with Fore.
+A blueprint for developing with [Fore](https://github.com/Jinntec/Fore).
 
 'fore-project' lets you quickly get started with writing your own Fore pages and offers 
 end-to-end testing with Cypress. A simple builtin http server allows quick development and testing.
+
+When development is done the files from the 'src' directory can deployed 'as-is' to some webserver.
 
 ## Requirements
 
@@ -11,10 +13,8 @@ end-to-end testing with Cypress. A simple builtin http server allows quick devel
 
 ## Setup
 
-`npm i`
-
-This will download install the dependencies.
-
+* Clone this repository to some folder on your harddrive
+* change to the folder and run `npm i` to install the dependencies
 
 ## Starting the http server
 
@@ -22,7 +22,11 @@ Open a shell and execute
 
 `npm start`
 
+Starts the http dev server on http://localhost:8001 by default and opens a browser window 
+
 ## Running Cypress
+
+Have the http server running (see above)
 
 Open a shell and execute
 
